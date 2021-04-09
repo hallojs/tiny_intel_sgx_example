@@ -7,10 +7,10 @@ This super duper minimal Intel SGX example is based on the sample code from the 
 What happens here?
 ------------------
 
-1. The application initializes an enclave.
-2. The application performs an enclave call to securely compute the first ten fibonacci numbers inside the enclave.
-4. The application destroys the enclave.
-3. The application prints the computed fibonacci numbers to the standard output.
+- The application initializes an enclave.
+- The application performs an enclave call to securely compute the first ten fibonacci numbers inside the enclave.
+- The application destroys the enclave.
+- The application prints the computed fibonacci numbers to the standard output.
 
 Yeah, it's completely pointless :D
 
