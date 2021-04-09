@@ -1,0 +1,5 @@
+enclave {
+    trusted {
+        public void ecall_gen_fibonacci_numbers([out, size=len] int* buf, size_t len);
+    };
+};
