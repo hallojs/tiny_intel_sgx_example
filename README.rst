@@ -14,6 +14,14 @@ What happens here?
 
 Yeah, it's completely pointless :D
 
+Enable Mitigations
+------------------
+
+To be able to make with mitigations there exit two requirements:
+
+- gcc >= 7.3
+- Lates GNU Binutils (tip of the master branch in the official GNU Binutils source repo). Alternatively you can donwload a `subset of the Binutil <https://download.01.org/intel-sgx/latest/linux-latest/>`_ and move them to ``/usr/local/bin``.
+
 How to Build/Execute?
 ---------------------
 
